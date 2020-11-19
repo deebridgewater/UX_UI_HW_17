@@ -1,0 +1,26 @@
+body {
+    background-color: #1F1F1F;
+}
+
+
+p {
+    color: #E5E5E5;
+}
+
+h1 {
+    color: #E5E5E5;
+}
+ 
+h2 {
+    color: #E5E5E5;
+}
+.nav {
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
