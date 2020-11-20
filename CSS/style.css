@@ -1,7 +1,10 @@
+*, *:before, *:after {
+    border: 1px solid red;
+}    
+
 body {
     background-color: #1F1F1F;
 }
-
 
 p {
     color: #E5E5E5;
@@ -14,6 +17,13 @@ h1 {
 h2 {
     color: #E5E5E5;
 }
+
+.navigation {
+    display: flex;
+    align-items: flex-start;
+    color: #E5E5E5;
+}
+
 .nav {
     list-style-type: none;
     text-align: right;
@@ -23,4 +33,68 @@ h2 {
     display: inline-block;
     font-size: 20px;
     padding: 20px;
+    color: #E5E5E5;
 }
+
+
+
+div#logo {
+    flex-grow:1;
+    font-size: 50px;
+    
+}
+
+div#h1logo {
+    text-align: top;
+}
+
+div#hero-left {
+    flex-grow: 1;
+}
+
+.intro-title {
+    font-size: 100px;
+
+}
+
+.intro-text {
+    font-size: 40px;
+    font-weight: lighter;
+    padding-bottom: ;
+}
+
+section.heroImg {
+    display: flex;
+}
+
+section.griffith {
+    display: flex;
+    margin-top: 100px;
+}
+div#griffith-left {
+    flex-grow: 1;
+}
+
+section.NWS {
+    display: flex;
+    margin: 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+div#NWS-right {
+    flex-grow: 1;
+}
+
+/* section.About {
+    display: flex;
+} */
+
+
+div#about-left {
+   width: 50%;
+}
+
+/* div#empty {
+    flex-grow: 1;
+} */
