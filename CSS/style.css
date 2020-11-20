@@ -27,6 +27,7 @@ h2 {
 .nav {
     list-style-type: none;
     text-align: right;
+    margin: 0;
 }
 
 .nav li {
@@ -38,14 +39,16 @@ h2 {
 
 
 
-div#logo {
+#logo {
     flex-grow:1;
-    font-size: 50px;
+    
+   
     
 }
 
-div#h1logo {
-    text-align: top;
+#h1logo {
+    margin: 0;
+    font-size: 50px;
 }
 
 div#hero-left {
@@ -60,7 +63,7 @@ div#hero-left {
 .intro-text {
     font-size: 40px;
     font-weight: lighter;
-    padding-bottom: ;
+    
 }
 
 section.heroImg {
