@@ -3,7 +3,9 @@
 }    
 
 body {
-    background-color: #1F1F1F;
+    background-color: #313131;
+    font-family: 'Neuton', serif;
+    margin: 20px;
 }
 
 p {
@@ -28,22 +30,38 @@ h2 {
     list-style-type: none;
     text-align: right;
     margin: 0;
+    text-decoration: none;
+    color: #E5E5E5
 }
 
 .nav li {
     display: inline-block;
-    font-size: 20px;
     padding: 20px;
-    color: #E5E5E5;
+    
 }
 
+
+a:link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #E5E5E5;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: #E5E5E5; 
+  }
 
 
 #logo {
     flex-grow:1;
-    
-   
-    
 }
 
 #h1logo {
@@ -51,53 +69,89 @@ h2 {
     font-size: 50px;
 }
 
-div#hero-left {
+#hero-left {
     flex-grow: 1;
+    
 }
 
 .intro-title {
     font-size: 100px;
-
+    padding-top: 50px;
+    margin: 0;
 }
 
 .intro-text {
     font-size: 40px;
     font-weight: lighter;
+    margin-top: 50px;
     
 }
 
 section.heroImg {
     display: flex;
+    padding-top: 50px;
+
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subheading {
+font-size: 25px;
+margin-top: 0;
+padding-top: 50px;
 }
 
 section.griffith {
     display: flex;
     margin-top: 100px;
 }
-div#griffith-left {
+#griffith-left {
     flex-grow: 1;
 }
 
+#griffith-right {
+   text-align: center;
+   position: relative;
+}
 section.NWS {
     display: flex;
-    margin: 20px;
     margin-top: 200px;
     margin-bottom: 200px;
 }
 
-div#NWS-right {
+#NWS-right {
     flex-grow: 1;
 }
 
-/* section.About {
-    display: flex;
-} */
 
-
-div#about-left {
+#about-left {
    width: 50%;
 }
 
-/* div#empty {
-    flex-grow: 1;
-} */
+.content {
+    font-size: 30px;
+    font-weight: lighter;
+    
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: #fff1d9;
+    top: 0;
+    display: flex;
+    align-items: center;
+    }
+
+.preloader img {
+        width: 150px;
+        transition: all;
+        margin: 0 auto;
+        border: #fff1d9;
+      }

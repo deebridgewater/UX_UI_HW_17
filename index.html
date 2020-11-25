@@ -2,6 +2,8 @@
 <html>
     <head>
         <title></title> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@200;400;700&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="CSS/style.css">
         </head>
         <body>
@@ -16,7 +18,7 @@
                 <!-- Nav Section -->
                 <nav class="inline-block">
                     <ul class="nav">
-                        <li><a href="#">Portfolio</a></li>
+                        <li class="navlinks"style= "#E5E5E5;"><a href="#">Portfolio</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Resume</a></li>
                         <li><a href="#">Contact</a></li>
@@ -38,31 +40,32 @@
                 </div>
             </section>
 
-            <div> <h2>Featured Projects</h2> </div>
+            <div> <h2 class="subheading">Featured Projects</h2> </div>
             <!--    Griffith section-->
             <section class="griffith">
             <div id="grifith-left">
                 
-                <h1>Griffith Observatory</h1>
-                <p> A redesign of The Griffith Observatory website and app  over a 2 week period . The Griffith Observatory consists of a planetarium, museum, and awe-inspiring views.</p>
+                <h1 class="section-title">Griffith Observatory</h1>
+                <p class="content"> A redesign of The Griffith Observatory website and app  over a 2 week period . The Griffith Observatory consists of a planetarium, museum, and awe-inspiring views.</p>
                 <br>
                 <a href="#">View Case Study</a>
             </div>
 
                 <div id="griffith-right">
-                    <img src="Images/GriffithDesktop.png" alt="Griffith Observatory Picture" width="612" height="385">
+        
+                    <img src="Images/GriffithGif.gif" id="griffith-gif" alt="Griffith gif" width="612" height="385">
                 </div>
                 
         </section>
             <!--    National Weather Service Section-->
             <section class="NWS">
                 <div id="NWS-left">
-                    <img src="Images/NWSdesktop.png" alt="National Weather Service Picture" width="612" height="385">
+                    <img src="Images/NWSTHIS.gif" alt="National Weather Service gif" width="612" height="385">
                 </div>
 
                 <div id="NWS-right">
-                    <h1>National Weather Service</h1>
-                <p>A redesign of The National Weather Service website and app  over a 4 week period . The National Weather Service website  provides weather, water, and climate data, forecasts and warnings for the protection of life and property and enhancement of the national economy.</p>
+                    <h1 class="section-title">National Weather Service</h1>
+                <p class="content">A redesign of The National Weather Service website and app  over a 4 week period . The National Weather Service website  provides weather, water, and climate data, forecasts and warnings for the protection of life and property and enhancement of the national economy.</p>
                 <br>
                 <a href="#">View Case Study</a>
                 </div>
@@ -70,8 +73,8 @@
             <!--    About Me-->
             <section class="About">
                 <div id="about-left"> 
-                <h2>About Me</h2>
-                <p>
+                <h2 class="subheading">About Me</h2>
+                <p class="content">
                     <strong> My goal is to work as a Jr UX Designer for a company that allows me to create work I’m proud of.</strong>
                     My Psychology background allows me to empathize with users to create strong, accessible designs.  
                 </p>
@@ -84,17 +87,22 @@
            
         </div>
             <footer>
-                <h1> Lets get in Touch!</h1>
-                <img src="Images/Cat.png" alt="Cat Icon" width="28" height="22">
+                <h1> Lets get in Touch! <img src="Images/Cat.png" alt="Cat Icon" width="28" height="22"></h1>
                 <img src="Images/Facebook.png" alt="Facebook Icon" width="51" height="51">
                 <img src="Images/Behance.png" alt="Behance Icon" width="51" height="51">
                 <img src="Images/Linkedin.png" alt="Linkedin Icon" width="51" height="51">
-                <h2> <dee13bridgewater@gmail class="com"></dee13bridgewater@gmail></h2>
+                <h1> dee13bridgewater@gmail </h1>
 
                  <p>Copyright &copy; Danielle Bridgewater 2020 All Rights Reserved</p>
              </footer>
         
-       
+             <div class="preloader">
+                <img src="images/catrun.gif"> 
+                
+                 </div> 
 
+                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                 <script src= "JS/index.JS">
+                 </script>
     </body>
 </html>
