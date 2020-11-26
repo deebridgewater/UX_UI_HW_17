@@ -45,7 +45,7 @@ h2 {
 a:link {
     font-size: 20px;
     text-decoration: none;
-    color: #E5E5E5;
+
   }
 
   a:hover {
@@ -153,6 +153,11 @@ section.griffith {
    position: relative;
 }
 
+#Griflink {
+    bottom: -17%;   
+    position: relative;
+}
+
 /* national weather service section */
 section.NWS {
     display: flex;
@@ -164,7 +169,10 @@ section.NWS {
     flex-grow: 1;
 }
 
-
+#NWSlink {
+    position: relative;
+    
+}
 /*text*/
 .content {
     font-size: 30px;
