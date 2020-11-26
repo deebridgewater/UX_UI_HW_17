@@ -1,7 +1,7 @@
 *, *:before, *:after {
     border: 1px solid red;
 }    
-
+/* Whole Page */ 
 body {
     background-color: #313131;
     font-family: 'Neuton', serif;
@@ -20,6 +20,7 @@ h2 {
     color: #E5E5E5;
 }
 
+/* Navigation */
 .navigation {
     display: flex;
     align-items: flex-start;
@@ -59,7 +60,7 @@ a:link {
     color: #E5E5E5; 
   }
 
-
+/* Logo */
 #logo {
     flex-grow:1;
 }
@@ -73,7 +74,7 @@ a:link {
     flex-grow: 1;
     
 }
-
+/* hero section */ 
 .intro-title {
     font-size: 100px;
     padding-top: 50px;
@@ -93,6 +94,40 @@ section.heroImg {
 
 }
 
+/*About section */
+
+#about-left {
+    width: 50%;
+ }
+
+/*My Skills section */
+
+.flexContainer {
+    display: flex;
+}
+
+.secHeading {
+    font-size: 25px;
+    margin: 0px;
+    font-weight: bold;
+    color: #E5E5E5;
+}
+
+#skills, #tools {
+    width: 50%;
+    margin: 20px;
+    border-color: #E5E5E5;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+ul li {
+    font-size: 25px;
+    color: #E5E5E5;
+}
+
+
+/* griffith section */
 .section-title {
     font-size: 50px;
     font-weight: bold;
@@ -100,9 +135,9 @@ section.heroImg {
 }
 
 .subheading {
-font-size: 25px;
-margin-top: 0;
-padding-top: 50px;
+    font-size: 25px;
+    margin-top: 0;
+    padding-top: 50px;
 }
 
 section.griffith {
@@ -117,6 +152,8 @@ section.griffith {
    text-align: center;
    position: relative;
 }
+
+/* national weather service section */
 section.NWS {
     display: flex;
     margin-top: 200px;
@@ -128,16 +165,13 @@ section.NWS {
 }
 
 
-#about-left {
-   width: 50%;
-}
-
+/*text*/
 .content {
     font-size: 30px;
     font-weight: lighter;
     
 }
-
+/*Preloader*/
 .preloader {
     position: fixed;
     width: 100%;
@@ -147,11 +181,11 @@ section.NWS {
     top: 0;
     display: flex;
     align-items: center;
-    }
+}
 
 .preloader img {
-        width: 150px;
-        transition: all;
-        margin: 0 auto;
-        border: #fff1d9;
-      }
+     width: 150px;
+    transition: all;
+    margin: 0 auto;
+    border: #fff1d9;
+}
