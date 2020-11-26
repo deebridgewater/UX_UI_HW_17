@@ -189,3 +189,24 @@ section.NWS {
     margin: 0 auto;
     border: #fff1d9;
 }
+
+/* media query*/
+
+@media only screen and (max-width: 800px) {
+    section.heroImg {
+        flex-direction: column;
+    }
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    section.griffith {
+        flex-direction: column;
+    }
+    section.NWS {
+        flex-direction: column;
+    }
+
+}
+
+
