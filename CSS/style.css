@@ -1,5 +1,5 @@
 *, *:before, *:after {
-    border: 1px solid red;
+    border: 1px solid #313131
 }    
 /* Whole Page */ 
 body {
@@ -68,6 +68,9 @@ a:link {
 #h1logo {
     margin: 0;
     font-size: 50px;
+}
+#h1logo a {
+    font-size: unset;
 }
 
 #hero-left {
@@ -167,11 +170,13 @@ section.NWS {
 
 #NWS-right {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 #NWSlink {
-    position: relative;
-    
+    align-self: flex-end; 
+
 }
 /*text*/
 .content {
